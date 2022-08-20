@@ -1,20 +1,20 @@
 body{
     margin:4px;
     background-color: rgba(42, 39, 233, 0.849);
-    height: 80vh;
+    height:100vh;
 }
 img{
     display:none;
 }
 .container{
     display: flex;
-    height: 85vh;
+    height: 100vh;
 }
 .selections{
     display: flex;
     flex-direction: column;
     background-color: #363031;
-    height: 85vh;
+    height: 88.5vh;
     padding: 24px;
     align-content: center;
     justify-content: space-around;
@@ -31,7 +31,7 @@ img{
     justify-content: center;
     align-items: center;
     background-color: blueviolet;
-    height: 85vh;
+    height: 99vh;
     width:50%;
 }
 .compPlayerView{
@@ -40,18 +40,15 @@ img{
     justify-content: center;
     align-items: center;
     background-color: rgba(206, 18, 18, 0.884);
-    height:85vh;
+    height: 99vh;
     width:50%;
 }
 #scorebox{
-    display:flex;
     width:100vw;
     height:60px;
     background-color: #470101;
     z-index: 1;
-    align-items: center;
-    justify-content: center;
-    color:antiquewhite;
+    
 }
 .show{
     width:50%;

@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang=""en">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>once again</title>
-        <script src="script.js"></script>
+        <title>rps</title>
+        <link rel = "stylesheet" href = "styles.css">
     </head>
     <body>
-        <input>
+        <div class = "container">
+            <div class = "selections">
+                <button class = "throw" id = "rockBtn">rock</button>
+                <button class = "throw" id = "paperBtn">paper</button>
+                <button class = "throw" id = "scissorsBtn">scissors</button>
+            </div>
+            <div class = gameView>
+                <div class = "playerOneView">
+                    <img src = "images/rock.png" alt = "rock" id = "playerRock" class="imgNode">
+                    <img src = "images/paper.png" alt = "paper" id = "playerPaper" class="imgNode">
+                    <img src = "images/scissors.jpg" alt = "scissors" id ="playerScissors" class="imgNode">
+                </div>
+                <div class = "compPlayerView">
+                    <img src = "images/rock.png" alt = "rock" id = "computerRock" class="imgNode">
+                    <img src = "images/paper.png" alt = "paper" id = "computerPaper" class="imgNode">
+                    <img src = "images/scissors.jpg" alt = "scissors" id = "computerScissors" class="imgNode">
+                </div>
+            </div>
+        </div>
+        <div class = "footer" id = "scorebox"> <p id = "scoreTxt">score</p> </div>
+        <script defer src="script-updated.js"></script>
     </body>
 </html>
